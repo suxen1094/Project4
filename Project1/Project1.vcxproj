@@ -123,6 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\..\Chain Reaction Framework\include\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Chain Reaction Framework\include\algorithm.h" />
+    <ClInclude Include="..\..\Chain Reaction Framework\include\board.h" />
+    <ClInclude Include="..\..\Chain Reaction Framework\include\player.h" />
+    <ClInclude Include="..\..\Chain Reaction Framework\include\rules.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Chain Reaction Framework\source\algorithm_ST.cpp" />
+    <ClCompile Include="..\..\Chain Reaction Framework\source\algorithm_TA.cpp" />
+    <ClCompile Include="..\..\Chain Reaction Framework\source\board.cpp" />
+    <ClCompile Include="..\..\Chain Reaction Framework\source\chain_reaction.cpp" />
+    <ClCompile Include="..\..\Chain Reaction Framework\source\player.cpp" />
+    <ClCompile Include="..\..\Chain Reaction Framework\source\rules.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
